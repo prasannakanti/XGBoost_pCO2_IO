@@ -1,6 +1,6 @@
 # XGBoost_pCO2_IO
 
-This repository contains scripts to build XGB models, perform statistical analysis, and create figures. 
+This repository contains scripts to build XGBoost models, perform statistical analysis, and create figures. 
 
 ## Repository Structure
 
@@ -11,7 +11,7 @@ The repository includes the following scripts:
    - Designed to produce high-quality plots and calculate key statistics for validation.
 
 2. **`XGBoost_model.ipynb`**
-   - A Jupyter Notebook for building, training, and evaluating XGBoost models. A similar code is applied to the four subregions individually.
+   - A Jupyter Notebook for building and evaluating XGBoost models. A similar code is applied to the four subregions individually.
    - It does not support hyperparameter tuning. "Optuna"  is a freely available, open-source framework for hyperparameter tuning.
 
 ## Requirements
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 ## Usage
 
 ### Figures and Statistics
-To generate figures and perform statistical analyses, use the `Figures_and_Statistics.ipynb` notebook. Open the notebook in Jupyter and update the input file paths and parameters as needed and load the necessary libraries.
+To generate figures and perform statistical analyses, use the `Figures_and_Statistics.ipynb` notebook. Open the notebook in Jupyter and update the input file paths and datasets as needed and load the necessary libraries.
 
 Run the notebook:
 
