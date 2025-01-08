@@ -12,7 +12,6 @@ The repository includes the following scripts:
 
 2. **`XGBoost_model.ipynb`**
    - A Jupyter Notebook for building and evaluating XGBoost models. A similar code is applied to the four subregions individually.
-   - It does not include hyperparameter tuning. "Optuna"  is a freely available, open-source framework for hyperparameter tuning.
 
 ## Requirements
 
