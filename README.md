@@ -10,9 +10,9 @@ The repository includes the following scripts:
    - A Jupyter Notebook for generating visualizations and performing statistical analyses.
    - Designed to produce high-quality plots and calculate key statistics for validation.
 
-2. **`XGBoost_regions.ipynb`**
-   - A Jupyter Notebook for building, training, and evaluating XGBoost models.
-   - Supports hyperparameter tuning and evaluation metrics for robust model performance.
+2. **`XGBoost_model.ipynb`**
+   - A Jupyter Notebook for building, training, and evaluating XGBoost models. A similar code is applied to the four subregions individually.
+   - It does not support hyperparameter tuning. "Optuna"  is a freely available, open-source framework for hyperparameter tuning.
 
 ## Requirements
 
@@ -30,12 +30,13 @@ pip install -r requirements.txt
 - `scipy`
 - `xgboost`
 - `sklearn`
-- `notebook`
+- `xarray`
+- `xskillscore`
 
 ## Usage
 
 ### Figures and Statistics
-To generate figures and perform statistical analyses, use the `figures_statistics.ipynb` notebook. Open the notebook in Jupyter and update the input file paths and parameters as needed.
+To generate figures and perform statistical analyses, use the `Figures_and_Statistics.ipynb` notebook. Open the notebook in Jupyter and update the input file paths and parameters as needed and load the necessary libraries.
 
 Run the notebook:
 
@@ -44,7 +45,7 @@ jupyter notebook figures_statistics.ipynb
 ```
 
 ### XGBoost Models
-To train and evaluate XGBoost models, use the `xgb_models.ipynb` notebook. Ensure that the input data file paths and model parameters are set appropriately in the notebook.
+To build and evaluate XGBoost models, use the `XGBoost_model.ipynb` notebook. Ensure that the input data file paths and model parameters are set appropriately in the notebook.
 
 Run the notebook:
 
