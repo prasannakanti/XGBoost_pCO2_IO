@@ -1,4 +1,8 @@
-# XGBoost_pCO2_IO
+### Ghoshal_et_al_2025_pco2_IO
+# Ghoshal, P. K., Joshi, A. P., & Chakraborty, K. (2025). An improved long-term high-resolution surface pCO2 data product for the Indian Ocean using machine learning. Scientific Data, 12(1), 577.
+
+## Creators
+### Prasanna Kanti Ghoshal (P. K. Ghoshal) and Dr Apurva Padamnabh Joshi (A. P. Joshi)
 
 This repository contains scripts to build XGBoost models, perform statistical analysis, and create figures. 
 
@@ -51,5 +55,3 @@ Run the notebook:
 ```bash
 jupyter notebook xgb_models.ipynb
 ```
-### Contributors
-Prasanna Kanti Ghoshal and Apurva P Joshi
