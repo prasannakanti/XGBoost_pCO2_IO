@@ -1,4 +1,5 @@
 ### Ghoshal_et_al_2025_pco2_IO
+## Citation
 # Ghoshal, P. K., Joshi, A. P., & Chakraborty, K. (2025). An improved long-term high-resolution surface pCO2 data product for the Indian Ocean using machine learning. Scientific Data, 12(1), 577.
 
 ## Creators
