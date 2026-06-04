@@ -51,3 +51,5 @@ Run the notebook:
 ```bash
 jupyter notebook xgb_models.ipynb
 ```
+### Contributors
+Prasanna Kanti Ghoshal and Apurva P Joshi
